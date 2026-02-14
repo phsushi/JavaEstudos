@@ -8,13 +8,18 @@ public class Main {
         //Print formatado
         //Formatacao.printarTextoFormatado();
 
-        ConversorTemperatura graus = new ConversorTemperatura();
+        /*ConversorTemperatura graus = new ConversorTemperatura();
 
         graus.setTemperatura(35);
 
         double convertido = graus.converter();
 
-        System.out.println(convertido);
+        System.out.println(convertido);*/
+        Notas calc = new Notas();
+        calc.setNotas();
+        System.out.println(calc.getNotas());
+        System.out.println(calc.calcularMedia());
+
     }
 
 
