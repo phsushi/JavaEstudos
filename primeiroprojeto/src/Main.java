@@ -14,11 +14,13 @@ public class Main {
 
         double convertido = graus.converter();
 
-        System.out.println(convertido);*/
+        System.out.println(convertido);
         Notas calc = new Notas();
         calc.setNotas();
         System.out.println(calc.getNotas());
-        System.out.println(calc.calcularMedia());
+        System.out.println(calc.calcularMedia());*/
+
+
 
     }
 
