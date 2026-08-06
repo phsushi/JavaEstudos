@@ -6,7 +6,8 @@ public class ConversorTemperatura {
         this.temperatura = temperatura;
     }
     public double converter(){
-        return (temperatura * 1.8) + 32;
+        final double conversor = 1.8;
+        return (temperatura * conversor) + 32;
     }
 
 }
